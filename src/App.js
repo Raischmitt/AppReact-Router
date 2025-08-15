@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import RootLayout from "./pages/Roots";
 import ErrorPage from "./pages/Error";
+import ProductDetail from "./pages/ProductDetail";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -11,6 +13,7 @@ const router = createBrowserRouter([
     childrem: [
       { path: "/", element: <Home /> },
       { path: "/products", element: <Products /> },
+      { path: 'produts/:productsproductId', element: <ProductDetail /> },
     ],
   },
 ]);
