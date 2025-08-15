@@ -12,7 +12,7 @@ function Home() {
       <h1>Home</h1>
       <p>
         go to
-        <Link to="/products">the list of products</Link>
+        <Link to="products">the list of products</Link>
       </p>
       <p>
         <button onClick={navigatehandler}>Navigate</button>
